@@ -30,8 +30,8 @@
   .envelope-wrapper {
     background: var(--bg-envelope-color);
     box-shadow: 0 0 40px var(--shadow-color);
-    width: 400px; /* Adjusted width of envelope */
-    height: 320px; /* Adjusted height of envelope */
+    width: 350px; /* Adjusted width of envelope */
+    height: 300px; /* Adjusted height of envelope */
     padding: 10px;
     position: relative;
   }
@@ -50,8 +50,8 @@
     top: 0;
     z-index: 2;
     border-top: 130px solid var(--envelope-tab);
-    border-right: 220px solid transparent;
-    border-left: 200px solid transparent;
+    border-right: 180px solid transparent;
+    border-left: 190px solid transparent;
     transform-origin: top;
     transition: all 0.5s ease-in-out 0.7s;
   }
@@ -63,9 +63,9 @@
     width: 0px;
     height: 0px;
     border-top: 130px solid transparent;
-    border-right: 220px solid var(--envelope-cover);
-    border-bottom: 200px solid var(--envelope-cover);
-    border-left: 200px solid var(--envelope-cover);
+    border-right: 180px solid var(--envelope-cover);
+    border-bottom: 190px solid var(--envelope-cover);
+    border-left: 190px solid var(--envelope-cover);
   }
   
   .letter {
@@ -100,8 +100,8 @@
   
   .heart {
     position: absolute;
-    top: 35%;
-    left: 48%;
+    top: 37%;
+    left: 51%;
     width: 15px;
     height: 15px;
     background: var(--heart-color);
