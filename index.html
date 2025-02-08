@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <div class="page">
+                            <strong>My Love,</strong>
+                            <p>
+                                From the moment you walked into my life, you became my favorite chapter in this story we’re writing together. Every day with you is a reminder of how lucky I am to love and be loved by someone as incredible as you.
+                            </p>
+                            <p>
+                                Now, I know I might not buy you a bouquet of roses every day (though I would if I could), and I may be hurtful and a bad bf at times, but what I can promise is this:
+                                I’ll be the one who makes you smile when you least expect it, who holds your hand a little tighter on tough days, and who reminds you every single day just how incredible you are.
+                            </p>
+                        </div>
+                        <div class="page">
+                            <p>
+                                You are my safe place, my greatest adventure, and my heart’s happiest song. The way you laugh, the way you care, and the way you make even the simplest moments feel special—these are the things that make me fall for you over and over again.
+                            </p>
+                            <p>
+                                This Valentine’s Day, I just want to remind you how deeply I cherish you. No matter where life takes us, my heart will always be yours.
+                            </p>
+                            <p>
+                                Will you be my Valentine? 💕
+                            </p>
+                            <p>
+                                Forever and always, <br>
+                                Munanski❤
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
